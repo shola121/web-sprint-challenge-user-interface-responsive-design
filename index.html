@@ -4,11 +4,14 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Sprint Challenge - Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css">
+	
 </head>
 
 <body>
@@ -16,13 +19,24 @@
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
-
+				<a href="index.html" class="Header"><h1>BLOOMTECH BAR AND GRILL</h1></a><br>
+				
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+			<nav>	
+			<div>
+				<a href="menu.html" class="#">Menu</a>
+				<a href="reservation.html" class="#">Reservations</a>
+				<a href="special offers.html" class="#">Special Offers</a>
+				<a href="contact.html" class="#">Contact</a>
+			</div>
+
+			<div class="social media">
+				<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+				
+			</div>
+			</nav>
 			</div>
 		</header>
 
@@ -31,23 +45,23 @@
 			<div>
 				<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-avocadotoast.jpg"/>
 
-				img/food-burger.jpg
+				<img src="img/food-burger.jpg"/>
 
-				img/food-poutine.jpg
+				<img src="img/food-poutine.jpg"/>
 
-				img/food-ribs.jpg
+				<img src="img/food-ribs.jpg"/>
 
-				img/food-sandwich.jpg
+				<img src="img/food-sandwich.jpg"/>
 
-				img/food-sausage.jpg
+				<img src="img/food-sausage.jpg"/>
 
-				img/food-steak.jpg
+				<img src="img/food-steak.jpg"/>
 
-				img/food-tacos.jpg
+				<img src="img/food-tacos.jpg"/>
 
-				img/food-wings.jpg
+				<img src="img/food-wings.jpg"/>
 			</div>
 		</section>
 
@@ -55,25 +69,27 @@
 		<div class="spacer"></div>
 
 		<!-- about section -->
-		<section class="about">
+		<br><section class="about"><br>
 			<div class="about-container">
 				<h2>ABOUT US</h2>
 
 				<div id="cooks" class="pic">
+					<img src="img/staff-cooks.jpg"/>
 				</div>
 
 				<div class="text">
-					<h3>Good Food, Great People</h3>
-					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
+					<br><h3>Good Food, Great People</h3><br>
+					<br><p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
 						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
 						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
 						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
 						dolore
 						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
-						shankle duis chicken dolore andouille do tenderloin qui.</p>
+						shankle duis chicken dolore andouille do tenderloin qui.</p><br>
 				</div>
 
 				<div id="bartender" class="pic">
+					<img src="img/staff-bartender.jpg"/>
 				</div>
 			</div>
 		</section>
@@ -83,8 +99,8 @@
 
 		<!-- contact section -->
 		<section class="contact">
-			<div class="contact-container">
-				<h2>CONTACT US</h2>
+			<br><div class="contact-container"><br>
+				<br><h2>CONTACT US</h2><br>
 
 				<div class="info">
 					<div class="address">
@@ -125,15 +141,18 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			Join our mailing list!<br>
+			<input type="text" placeholder="Email Address"/>
+			<button>Sign Up</button>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+			<button><a href="menu.html" class="#">Menu</a></button>
+			<button><a href="reservation.html" class="#">Reservations</a></button>
+			<button><a href="special offers.html" class="#">Special Offers</a></button>
+			<button><a href="contact.html" class="#">Contact</a></button><br>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			©2022 BloomTech Restaurant Group, Inc. <p>All Rights Reserved.</p>
+			</nav>
 		</footer>
 	</div>
 </body>
